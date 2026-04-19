@@ -1,4 +1,4 @@
-# 🎯 Churn Prediction — POC (SaaS)
+# 🎯 Churn Prediction — POC
 
 Modelo de Machine Learning para identificar clientes com alta probabilidade de cancelar a assinatura, permitindo que o time de Customer Success atue preventivamente.
 
