@@ -67,7 +67,7 @@ Taxa de churn: **18.3%** (dados desbalanceados).
 
 ### Aprendizado-chave
 
-Random Forest e KNN tinham a maior acurácia (82% e 81%), mas detectavam **menos de 10%** dos churns reais. Eles simplesmente chutavam "não churn" para quase todo mundo — a acurácia alta era uma ilusão causada pelo desbalanceamento dos dados.
+Random Forest e KNN tinham a maior acurácia (82% e 81%), mas detectavam **menos de 10%** dos churns reais. Eles simplesmente chutavam "não churn" para quase todo mundo, a acurácia alta era uma ilusão causada pelo desbalanceamento dos dados.
 
 A **Regressão Logística** com `class_weight='balanced'` foi o melhor modelo: recall de **80%** (detectou 4 de cada 5 churns reais). Em churn, priorizar recall é mais importante porque é pior perder um cliente sem saber do que contatar um que ia ficar.
 
@@ -106,7 +106,6 @@ jupyter notebook Modelo_ML_para_churn.ipynb
 ├── README.md
 ├── churn_saas.csv                  # Dataset sintético
 ├── Modelo_ML_para_churn.ipynb      # Notebook com o pipeline completo
-└── gerar_dataset.py                # Script que gera o dataset (opcional)
 ```
 
 ## Tecnologias
