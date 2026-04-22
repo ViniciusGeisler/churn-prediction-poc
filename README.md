@@ -89,7 +89,7 @@ Fatores que **protegem** contra churn:
 
 ```bash
 # Clone o repositório
-git clone https://github.com/SEU_USUARIO/churn-prediction-poc.git
+git clone https://github.com/ViniciusGeisler/churn-prediction-poc.git
 
 # Abra o notebook
 # Opção 1: Google Colab (recomendado)
